@@ -14,7 +14,7 @@
 }
 
 .image {
-    background-image: url(/images/connect2.jpg);
+    background-image: url(./images/connect2.jpg);
     overflow: hidden;
     background-position: center;
     background-repeat: no-repeat;
