@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Arimo:wght@400;500&family=Comfortaa:wght@300&family=Kenia&family=M+PLUS+Rounded+1c:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Arimo:wght@400;500&family=Comfortaa:wght@300&family=Kenia&family=M+PLUS+Rounded+1c:wght@800&family=Metamorphous&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+.container.d-flex.justify-content-center.mt-5 {
+    min-height: 50vh;
+    align-items: center;
+}
+
+.image {
+    background-image: url(/images/connect2.jpg);
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20vh;
+}
+.container.d-flex.justify-content-center.mt-5 h1 {
+    top: 0;
+    left: 0;
+}
+
+.form-control {
+    height: 40px;
+    width: 250px;
+    padding: 5px 10px;
+    box-shadow: none !important;
+}
+
+.form-control:focus {
+    border-color: rgb(52, 115, 136);
+}
+
+.form-group.mt-4.border.py-5.px-5 {
+    font-size: 15px;
+}
+
+.form-control::placeholder {
+    font-size: 15px;
+    color: black;
+    font-family: 'Archivo', sans-serif;
+}
+
+.btn.btn-primary.btn-md.mt-3 {
+    width: 250px;
+}
+
+.fa-brands.fa-google.mt-1 {
+    padding-right: 0.5rem;
+    color: #223b4e;
+    font-size: 20px;
+}
+
+.d-flex.justify-content-center.py-2.text-decoration-none.text-black {
+    padding-right: 20px;
+}
+.fa-brands.fa-facebook-f.mt-1 {
+    padding-right: 0.5rem;
+    color: #1877f2;
+    font-size: 20px;
+}
